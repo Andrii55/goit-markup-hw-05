@@ -114,6 +114,8 @@ color: #2196F3;
     padding-top: 32px;
     padding-bottom: 33px;
     position: relative;
+    transition-property: var(--accent-color);
+    transition-duration: 250ms;
    
 
     font-weight: 500;
@@ -164,6 +166,9 @@ color: #2196F3;
     padding-top: 30px;
     padding-bottom: 30px;
     align-items: center;
+
+    transition-property: var(--accent-color);
+    transition-duration: 250ms;
 
 
 font-size: 14px;
@@ -420,6 +425,12 @@ color: #757575;
     border-radius: 50%;
     background-color: #FFFFFF;
     color: #AFB1B8;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
 }
 
 .team-soc-link:hover {
@@ -490,21 +501,6 @@ color: #212121;
       .icon-Logo-1{
         fill: currentColor;
       }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* -------------FOOTER------------- */
@@ -593,7 +589,7 @@ color: #FFFFFF;
 text-align: center;
     width: 44px;
     height: 44px;
-    
+ 
 }
 
 .footer-soc-items:not(:last-child){
@@ -609,11 +605,14 @@ text-align: center;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);;
     color: #FFFFFF;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
 }
 
 .footer-soc-link:hover {
     background-color: #2196F3;
-    color: #FFFFFF;
 }
 .footer-soc-icons {
     fill: currentColor;
@@ -628,7 +627,9 @@ text-align: center;
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
-    transition: opasity, 250ms linear, visibility, 250ms linear;
+    transition-property: opasiti;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
 }
 
 .form-bg{
@@ -641,7 +642,9 @@ text-align: center;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
-transition: transform, 250ms linear;
+transition-property: transform;
+transition-duration: 250ms;
+transition-timing-function: linear;
 }
 
 .form.is-hidden .form-bg{
@@ -659,7 +662,6 @@ transition: transform, 250ms linear;
     border-radius: 50%;
     background-color: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
-border-radius: 50%;
 }
 
 .is-hidden{
