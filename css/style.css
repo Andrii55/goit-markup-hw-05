@@ -489,6 +489,14 @@ color: #212121;
             border-radius: 4px;
             background-color: #FFFFFF;
             color: #AFB1B8;
+
+            transition-property: border;
+            transition-duration: 250ms;
+            transition-timing-function: linear;
+
+            transition-property: color;
+            transition-duration: 250ms;
+            transition-timing-function: linear;
         }
 
 

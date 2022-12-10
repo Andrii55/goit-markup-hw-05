@@ -59,13 +59,10 @@ transition-property: background-color;
 transition-duration: 250ms;
 transition-timing-function: linear;
 
-/* transition-property: box-shadow;
-transition-duration: 2500ms;
-transition-timing-function: linear;
-
-transition-property: border-radius;
+/* transition-property: border;
 transition-duration: 2500ms;
 transition-timing-function: linear; */
+
 }
 
 .btn:hover,
@@ -154,8 +151,10 @@ color: #757575;
             display: block;
             padding-top: 32px;
             padding-bottom: 33px;
+
             transition-property: color;
-    transition-duration: 250ms;
+            transition-duration: 250ms;
+            transition-timing-function: linear;
 
 
             font-style: normal;
@@ -255,9 +254,7 @@ color: #757575;
     padding-bottom: 95px;
 }
 
-/* .overlay {
-    position: absolute;
-} */
+
 
 .portfolio-list {
     display: flex;
