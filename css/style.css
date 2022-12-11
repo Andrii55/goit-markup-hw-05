@@ -635,9 +635,15 @@ text-align: center;
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
-    transition-property: opasiti;
+
+    transition-property: opacity;
     transition-duration: 250ms;
     transition-timing-function: linear;
+
+    transition-property: visibility;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+
 }
 
 .form-bg{
@@ -649,14 +655,17 @@ text-align: center;
     transform: translate(-50%, -50%) scale(1);
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 4px;
-transition-property: transform;
-transition-duration: 250ms;
-transition-timing-function: linear;
-}
+    border-radius: 4px;
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    
+
+} 
 
 .form.is-hidden .form-bg{
-    transform: translate(-50%, -50%) scale(0)
+    transform: translate(-50%, -50%) scale(0);
+   
 }
 
 .form-bt{
@@ -670,6 +679,7 @@ transition-timing-function: linear;
     border-radius: 50%;
     background-color: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    
 }
 
 .is-hidden{
