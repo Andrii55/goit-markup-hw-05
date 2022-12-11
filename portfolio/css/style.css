@@ -55,17 +55,10 @@ font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
 
-transition-property: background-color, color;
+transition-property: background-color, color, box-shadow, border-radius;
 transition-duration: 250ms;
 transition-timing-function: linear;
 
-transition-property: color;
-transition-duration: 250ms;
-transition-timing-function: linear;
-
-/* transition-property: border;
-transition-duration: 2500ms;
-transition-timing-function: linear; */
 
 }
 
@@ -275,13 +268,10 @@ color: #757575;
     
     background-color: #FFFFFF;
 
-    transition-property: border;
+    transition-property: border, box-shadow;
     transition-duration: 250ms;
     transition-timing-function: linear;
 
-    transition-property: box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function: linear;
 }
 
 .portfolio-name > .border
